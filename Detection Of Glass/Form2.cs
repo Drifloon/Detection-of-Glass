@@ -24,5 +24,11 @@ namespace Detection_Of_Glass
             sizeDetection.Show();
             //sizeDeteciton.show(;)
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RustTest rt = new RustTest();
+            rt.Show();
+        }
     }
 }

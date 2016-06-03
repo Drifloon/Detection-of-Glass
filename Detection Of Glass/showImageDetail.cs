@@ -22,10 +22,5 @@ namespace Detection_Of_Glass
         {
 
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

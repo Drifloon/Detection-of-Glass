@@ -75,7 +75,7 @@ namespace Detection_Of_Glass
                 {
                     myProcess.StartInfo.UseShellExecute = false;
                     myProcess.StartInfo.FileName = "RustTest.exe";
-                    MessageBox.Show(filePath);
+                    //MessageBox.Show(filePath);
                     myProcess.StartInfo.CreateNoWindow = true;
                     myProcess.StartInfo.Arguments = argument;
                     myProcess.Start();
