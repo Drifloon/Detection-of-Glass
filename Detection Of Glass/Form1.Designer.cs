@@ -94,6 +94,7 @@
             this.showImage1.Size = new System.Drawing.Size(197, 189);
             this.showImage1.TabIndex = 3;
             this.showImage1.TabStop = false;
+            this.showImage1.Click += new System.EventHandler(this.showImage1_Click);
             // 
             // sourceImage3
             // 
@@ -112,6 +113,7 @@
             this.showImage2.Size = new System.Drawing.Size(196, 189);
             this.showImage2.TabIndex = 5;
             this.showImage2.TabStop = false;
+            this.showImage2.Click += new System.EventHandler(this.showImage2_Click);
             // 
             // showImage3
             // 
@@ -121,6 +123,7 @@
             this.showImage3.Size = new System.Drawing.Size(197, 189);
             this.showImage3.TabIndex = 6;
             this.showImage3.TabStop = false;
+            this.showImage3.Click += new System.EventHandler(this.showImage3_Click);
             // 
             // addButton2
             // 
@@ -181,6 +184,7 @@
             this.showImage4.Size = new System.Drawing.Size(197, 189);
             this.showImage4.TabIndex = 12;
             this.showImage4.TabStop = false;
+            this.showImage4.Click += new System.EventHandler(this.showImage4_Click);
             // 
             // textBox1
             // 

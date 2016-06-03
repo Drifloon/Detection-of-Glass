@@ -80,6 +80,7 @@ namespace Detection_Of_Glass
             Process myProcess = new Process();
             try
             {
+                
                 myProcess.StartInfo.UseShellExecute = false;
                 myProcess.StartInfo.FileName = "opencvTest.exe";
                 myProcess.StartInfo.CreateNoWindow = true;
@@ -107,7 +108,7 @@ namespace Detection_Of_Glass
             showImage4.SizeMode = PictureBoxSizeMode.StretchImage;
             showImage4.Image = tmp4;
             //textBox1.AppendText("单位：厘米\n");
-            StreamReader sr = new StreamReader("output_circle_size.txt",Encoding.Default);
+            StreamReader sr = new StreamReader("output_circle_size.txt", Encoding.Default);
             String line;
             while ((line = sr.ReadLine()) != null)
             {
@@ -164,6 +165,38 @@ namespace Detection_Of_Glass
         private void sourceImage1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void showImage1_Click(object sender, EventArgs e)
+        {
+            Image tmpImage = showImage1.Image;
+            showImageDetail sid = new showImageDetail();
+            sid.pictureBox1.Image = tmpImage;
+            sid.Show();
+        }
+
+        private void showImage2_Click(object sender, EventArgs e)
+        {
+            Image tmpImage = showImage2.Image;
+            showImageDetail sid = new showImageDetail();
+            sid.pictureBox1.Image = tmpImage;
+            sid.Show();
+        }
+
+        private void showImage3_Click(object sender, EventArgs e)
+        {
+            Image tmpImage = showImage3.Image;
+            showImageDetail sid = new showImageDetail();
+            sid.pictureBox1.Image = tmpImage;
+            sid.Show();
+        }
+
+        private void showImage4_Click(object sender, EventArgs e)
+        {
+            Image tmpImage = showImage4.Image;
+            showImageDetail sid = new showImageDetail();
+            sid.pictureBox1.Image = tmpImage;
+            sid.Show();
         }
 
         private void addButton4_Click(object sender, EventArgs e) //给第四个框添加图片
