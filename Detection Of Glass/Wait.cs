@@ -10,20 +10,20 @@ using System.Windows.Forms;
 
 namespace Detection_Of_Glass
 {
-    public partial class showImageDetail : Form
+    public partial class Wait : Form
     {
-        public showImageDetail()
+        public Wait()
         {
             InitializeComponent();
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Show(); 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Wait_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
