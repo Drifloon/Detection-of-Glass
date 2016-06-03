@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Detection_Of_Glass
+namespace RustTest
 {
-    public partial class showImageDetail : Form
+    public partial class Form1 : Form
     {
-        public showImageDetail()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

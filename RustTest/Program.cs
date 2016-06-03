@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Detection_Of_Glass
+namespace RustTest
 {
     static class Program
     {
@@ -16,8 +16,7 @@ namespace Detection_Of_Glass
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
-            Application.Run(new RustTest());
+            Application.Run(new Form1());
         }
     }
 }
