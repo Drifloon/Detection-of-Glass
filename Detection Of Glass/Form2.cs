@@ -15,6 +15,7 @@ namespace Detection_Of_Glass
         public Form2()
         {
             InitializeComponent();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
         }
 
         private void button1_Click(object sender, EventArgs e)

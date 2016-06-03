@@ -20,6 +20,7 @@ namespace Detection_Of_Glass
         {
             a = b = c = d = false;
             InitializeComponent();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
         }
         private void button1_Click(object sender, EventArgs e) //给第一个框添加图片
         {

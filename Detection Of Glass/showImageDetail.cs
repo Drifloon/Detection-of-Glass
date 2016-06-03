@@ -15,6 +15,12 @@ namespace Detection_Of_Glass
         public showImageDetail()
         {
             InitializeComponent();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
