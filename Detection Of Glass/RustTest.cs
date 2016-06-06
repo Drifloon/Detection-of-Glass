@@ -52,12 +52,9 @@ namespace Detection_Of_Glass
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                     Image tmp = Image.FromFile(filePath);
                     pictureBox1.Image = tmp;
-                } 
+                }
             }
-
-             openfile.Dispose();
-             
-            
+            openfile.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -89,8 +86,13 @@ namespace Detection_Of_Glass
                 catch (Exception s)
                 {
                     Console.WriteLine(s.Message);
+                }
             }
-            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
